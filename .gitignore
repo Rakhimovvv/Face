@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Katta model / o‘qitish chiqishlari (GitHub cheklovi; qayta train_age.py)
+checkpoints/
+*.onnx
+*.pth
+*.pt
+*.caffemodel
+
+# Eski lokal yuklamalar
+models/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Muhit kalitlari
+.env
+.env.*
+*.pem
+
+# Ma’lumotlar (UTKFace kabi)
+data/
+*.zip

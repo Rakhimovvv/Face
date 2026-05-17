@@ -1,0 +1,5 @@
+gradio>=4.44.0
+opencv-python>=4.9.0
+pillow>=10.0.0
+numpy>=1.26.0
+onnxruntime>=1.16.0

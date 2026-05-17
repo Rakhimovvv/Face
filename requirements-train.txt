@@ -1,0 +1,6 @@
+# O'qitish uchun alohida: Python 3.10 yoki 3.11 tavsiya etiladi.
+torch>=2.0.0
+torchvision>=0.15.0
+# Ba'zi PyTorch versiyalarida torch.onnx.export onnxscript chaqiradi — zarurat bo'lsa:
+onnxscript>=0.2.0
+onnx>=1.14.0
