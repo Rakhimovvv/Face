@@ -1,4 +1,4 @@
-# O'qitish uchun alohida: Python 3.10 yoki 3.11 tavsiya etiladi.
+# O'qitish uchun (ilova talablari — requirements.txt — ham kerak). Python 3.10+ (3.14 da sinovdan o'tgan).
 torch>=2.0.0
 torchvision>=0.15.0
 # Ba'zi PyTorch versiyalarida torch.onnx.export onnxscript chaqiradi — zarurat bo'lsa:
