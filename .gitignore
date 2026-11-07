@@ -11,14 +11,18 @@ __pycache__/
 *.so
 
 # Katta model / o‘qitish chiqishlari (GitHub cheklovi; qayta train_age.py)
-checkpoints/
+checkpoints/*
 *.onnx
 *.pth
 *.pt
 *.caffemodel
 
 # Eski lokal yuklamalar
-models/
+models/*
+
+# Istisno: ilova ishlashi uchun kerak bo‘lgan tayyor modellar (o‘qitilgan yosh modeli ~45 MB, YuNet ~0.2 MB)
+!checkpoints/age_predictor.onnx
+!models/face_detection_yunet_2023mar.onnx
 
 # IDE / OS
 .idea/
